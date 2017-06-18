@@ -1,0 +1,21 @@
+{
+  "name": "hagonbase",
+  "version": "1.0.0",
+  "description": "Program used to Sell/Buy crypto currencies using coinbase API",
+  "main": "hagonbase.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Hagon",
+  "license": "ISC",
+  "bin": {
+    "hagonbase": "hagonbase.js"
+  },
+  "dependencies": {
+    "coinbase": "^2.0.6",
+    "commander": "^2.9.0",
+    "nconf": "^0.8.4",
+    "node-cron": "^1.2.0",
+    "read": "^1.0.7"
+  }
+}
